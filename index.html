@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+<div id="home">    
+    <header>
+        <div class="logo">
+            <a href="#">Portfo<span style="color: rgba(236, 233, 11, 0.979)">lio</span></a>
+        </div>
+        <nav class="nav-link">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+            <a href="">Dowlond Resume</a>
+        </nav>
+        <button id="mode"><i class="fa-solid fa-circle-half-stroke"></i></button>
+    </header>
+    <section>
+        <div class="main">
+            <div class="detail">
+            <h1><span>Hi, It's Me</span> <br> I'm <span style="color: #244D61;">Mohd Aqib</h1>
+            <h3>And I'm a Java Full-Stack <span style="color: rgb(76, 235, 28);">Developer</span></h3>
+            <div class="social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="img">
+            <img src="img/photo.jpg" alt="" width="200px">
+        </div>
+    </div>
+    </section>
+</div>
+    <!-- About section -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/photo.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt repudiandae numquam fuga atque illo quo animi quia reprehenderit facilis.
+                     Ab debitis voluptas mollitia corrupti eligendi ipsam illum officia, obcaecati fugiat.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nisi non quibusdam sequi minus debitis sit quo,
+                     quasi ex ullam provident, quos laudantium? Perspiciatis impedit consequuntur alias? Nulla, totam dolorum? </p>
+
+                     <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                        <p class="tab-links" onclick="opentab('presnal-detail')">Presnal Details</p>
+                        <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+                            <li><span>Web Development</span><br>web app Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                            <li><span>Database</span><br>Designing Database</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents " id="eduction">
+                        <ul>
+                            <li><span>Aug: 2023</span><br>BCA from M.J.P.R.U U.P</li>
+                            <li><span>Mar: 2020</span><br>Intermediate from M.G.M.P.M.I.C Basi Kiratpur(Bijnor) U.P</li>
+                            <li><span>Mar: 2018</span><br>Highschool from M.G.M.P.M.I.C Basi Kiratpur(Bijnor) U.P</li>
+                            <li><span>Apr: 2024</span><br>Training from Anudip Faundation (NSDC)</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="presnal-detail">
+                        <ul>
+                            <li><span>Name</span><br>Mohd Aqib</li>
+                            <li><span>DOB</span><br>11/03/2003</li>
+                            <li><span>Email</span><br>mohdaqib8650@gmail.com</li>
+                            <li><span>Number</span><br>(+91) 819103681*</li>
+                            <li><span>Address</span><br>Bijnor U.P (246731)</li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="certification">
+                        <ul>
+                            <li><span>Dec: 2023</span><br>HTML/CSS/Bootstrap from Codecademy<a href="">Click</a></li>
+                            <li><span>Jan: 2024</span><br>Java/Javascript from Codecademy<a href="">Click</a></li>
+                            <li><span>Mar: 2024</span><br>Java Full-Stack Development from Anudip Faundation<a href="">Click</a></li>
+                        </ul>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Technical Skills section -->
+
+<div id="skills">
+    <div class="title">
+        <h1>Technical Skills</h1>
+    </div>
+    <div class="skill-icon">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3"></i>
+        <i class="fa-brands fa-bootstrap"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-java"></i>
+        <i class="fa-brands fa-angular"></i>
+        <i class="fa-solid fa-database"></i>
+        <i class="fa-brands fa-github"></i>
+    </div>       
+</div>
+
+    <!-- Project section -->
+<div id="project">
+      <div class="pro-title">
+        <h1>project</h1>
+      </div>
+
+      <div class="box-card">
+        <div class="card">
+            <h2>Calcutator</h2>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa unde architecto eius veniam modi voluptatem illo molestias,
+                 odit id inventore, non distinctio quas quaerat perspiciatis magni dolorum aliquid doloremque similique.</p>
+                 <div class="link">
+                    <a href="">Demo Click</a>
+                    <a href="">Click here</a>
+                 </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Calcutator</h2>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa unde architecto eius veniam modi voluptatem illo molestias,
+                 odit id inventore, non distinctio quas quaerat perspiciatis magni dolorum aliquid doloremque similique.</p>
+                 <div class="link">
+                    <a href="">Click here</a>
+                    <a href="">Click here</a>
+                 </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Calcutator</h2>
+            <div class="pra">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa unde architecto eius veniam modi voluptatem illo molestias,
+                 odit id inventore, non distinctio quas quaerat perspiciatis magni dolorum aliquid doloremque similique.</p>
+                    <div class="link">
+                    <a href="">Click here</a>
+                    <a href="">Click here</a>
+                </div>
+            </div>
+        </div>
+        
+      </div>
+</div>
+
+    <!-- ----contact---- -->
+<div class="contact" id="contact">
+    <div class="contact-box-1">
+        <div class="left">
+        </div>
+        <div class="right">
+            <h2>Contact Me</h2>
+            <input type="text" name="name" id="" placeholder="Enter Your Name">
+            <input type="email" name="email" id="" placeholder="Enter Your Email">
+            <input type="number" name="number" id="" placeholder="Enter Your Phone No">
+            <textarea name="" cols="10" rows="5" placeholder="Massage"></textarea>
+            <button type="submit" class="send">Send</button>
+        </div>
+    </div>
+</div>
+
+<!-- ----footer---- -->
+
+<footer>
+    <div class="title-foot">
+        <i class="fa-regular fa-copyright"></i>
+        <p>2024 | Design & Develop by Mohd Aqib</p>
+    </div>
+</footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
